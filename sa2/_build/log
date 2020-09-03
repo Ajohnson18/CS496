@@ -1,0 +1,9 @@
+# dune utop src
+# OCAMLPARAM: unset
+$ /usr/bin/nproc > /tmp/dune324497.output 2> /dev/null
+$ /usr/bin/ocamlc.opt -config > /tmp/dunef16a87.output
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -impl src/interp.ml) > _build/default/src/.sool.objs/interp.ml.d
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.sool.objs -I src/.sool.objs/.private -no-alias-deps -opaque -open Sool -o src/.sool.objs/sool__Interp.cmo -c -impl src/interp.ml)
+> File "src/interp.ml", line 64, characters 9-18:
+> Error: Unbound value List.head
+[2]

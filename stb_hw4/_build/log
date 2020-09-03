@@ -1,0 +1,8 @@
+# dune utop
+# OCAMLPARAM: unset
+$ /usr/bin/nproc > /tmp/dunebde802.output 2> /dev/null
+$ /usr/bin/ocamlc.opt -config > /tmp/dune330e10.output
+$ (cd _build/default && /usr/bin/ocamlc.opt -w @a-4-29-40-41-42-44-45-48-58-59-60-40 -strict-sequence -strict-formats -short-paths -keep-locs -warn-error -A -g -bin-annot -I src/.checked.objs -I src/.checked.objs/.private -no-alias-deps -opaque -open Checked -o src/.checked.objs/checked__Interp.cmo -c -impl src/interp.ml)
+> File "src/interp.ml", line 29, characters 4-9:
+> Error: Unbound constructor Class
+[2]

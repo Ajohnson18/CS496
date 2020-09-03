@@ -1,0 +1,4 @@
+# dune utop src
+# OCAMLPARAM: unset
+$ /usr/bin/nproc > /tmp/dunee53942.output 2> /dev/null
+$ /usr/bin/ocamlc.opt -config > /tmp/dunef6c483.output
